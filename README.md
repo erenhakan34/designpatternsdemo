@@ -27,13 +27,13 @@ Dependency Injection(DI) nedir? (Bağımlılıkları soyutlamak)
 Prototype design pattern nedir? - Yaratımsal(Çok kullanılmaz)
 -----------------------------------------------------------------
 
-	Nesnelerin hızlıca kopyasını elde etmemizi sağlar. Yaratma işlemi kompleks ve maliyetli ise bir nesneyi bu yolla hızlıca farklı bir nesne alabiliriz.
-	
-	Shallow Copy: Farklı bir nesne oluşur fakat nesne içerisinde bir nesne var ise o nesnenin referansı kopyalanır.
-					Yöntem: this.MemberwiseClone()
-					
-	Deep Copy:    Farklı bir nesne oluşur ve içerisindeki nesneler de farklı referansla oluşur.  
-				   Yöntem: Yeni bir instance yaratmak...	
+Nesnelerin hızlıca kopyasını elde etmemizi sağlar. Yaratma işlemi kompleks ve maliyetli ise bir nesneyi bu yolla hızlıca farklı bir nesne alabiliriz.
+
+Shallow Copy: Farklı bir nesne oluşur fakat nesne içerisinde bir nesne var ise o nesnenin referansı kopyalanır.
+				Yöntem: this.MemberwiseClone()
+				
+Deep Copy:    Farklı bir nesne oluşur ve içerisindeki nesneler de farklı referansla oluşur.  
+			   Yöntem: Yeni bir instance yaratmak...	
 	
 
 Strategy design pattern nedir? - Davranışsal kalıp > Nesnenin runtime'daki davranışı ile ilgili
