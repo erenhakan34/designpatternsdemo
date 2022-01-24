@@ -165,12 +165,9 @@ Decorator design pattern nedir? - Yapısal
 Mediator design pattern nedir? - Davranışsal
 ------------------------------------------------
 
-    MediatR kütüphanesi ile popülerliği artan bir pattern.
-	Nesneler arası bağımlılıkları azaltmak için kullanılan bir pattern. Nesneler arası bağımlılıkların tek bir yerden yönetilmesini sağlar.
-		Nesneler birbirleriyle değil, bir aracı üzerinden iletişim kurarlar. Tıpkı uçak ve kule gibi.
-		
-	
-	
+MediatR kütüphanesi ile popülerliği artan bir pattern.
+Nesneler arası bağımlılıkları azaltmak için kullanılan bir pattern. Nesneler arası bağımlılıkların tek bir yerden yönetilmesini sağlar.
+	Nesneler birbirleriyle değil, bir aracı üzerinden iletişim kurarlar. Tıpkı uçak ve kule gibi.
 	
 State design pattern nedir? - Davranışsal
 ----------------------------------------------
