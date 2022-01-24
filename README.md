@@ -39,21 +39,21 @@ Deep Copy:    Farklı bir nesne oluşur ve içerisindeki nesneler de farklı ref
 Strategy design pattern nedir? - Davranışsal kalıp > Nesnenin runtime'daki davranışı ile ilgili
 --------------------------------------------------------------------------------------------------
 
-	Bir işlem için birden farklı yöntem var ise bu yöntemlerden birisini kullanmak için kullanılır.
+Bir işlem için birden farklı yöntem var ise bu yöntemlerden birisini kullanmak için kullanılır.
 
-        SOLId prensiplerinden Open-closed prensibini sağlamış oluruz.
-	
-	Strategy base sınıfımız olur ve bu sınıfı uygulayan özel strateji sınıfları olur. Client hangi stratejiyi kullanmak istiyorsa onu geçmek zorundadır.
-	
-	Örnek senaryolar: Ödeme yöntemleri(Nakit ödeme, Kredi kartı ile ödeme, QR kod ile ödeme, vs)
-	                   Login olma yöntemleri(Tckn ile login, kullanıcı kodu ile login, kredi kartı no ile login, vs.)
+    SOLId prensiplerinden Open-closed prensibini sağlamış oluruz.
+
+Strategy base sınıfımız olur ve bu sınıfı uygulayan özel strateji sınıfları olur. Client hangi stratejiyi kullanmak istiyorsa onu geçmek zorundadır.
+
+Örnek senaryolar: Ödeme yöntemleri(Nakit ödeme, Kredi kartı ile ödeme, QR kod ile ödeme, vs)
+                   Login olma yöntemleri(Tckn ile login, kullanıcı kodu ile login, kredi kartı no ile login, vs.)
 	
 	
 	
 
 Observer design pattern nedir? - Davranışsal
 -----------------------------------------------
- 
+
    Bir nesnenin durumunda değişiklik olduğunda bu nesnedeki değişiklikleri izleyen diğer nesneleri haberdar etmek için kullanılır.
    
    İzlenecek olan nesne içerisinde observer'larının listesini tutar ve ekleyen bir metod açar. Observer'lar ilgili nesnede abone olarak o nesnede bir güncelleme olduğu zaman
