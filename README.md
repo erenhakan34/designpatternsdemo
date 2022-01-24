@@ -106,13 +106,11 @@ Birden fazla aynı nesneyi farklı şekilde yaratan builder sınıfları olabili
 Template design pattern nedir? - Davranışsal
 ------------------------------------------------
 
-    Şablon demektir. Bir algoritma içerisinde değişiklik gösteren noktalar var ise kullanılır. Genel bir algoritma vardır ve alt sınıflara göre ara ara farklı yöntemler uygulanabilir.
-	
-	Algoritma tüm alt sınıflar için benzerse ve bazı noktalar değişiyorsa kullanılabilir, aksi takdirde strateji pattern daha uygun olacaktır.
-	
-	Algoritma abstract bir sınıfta belirlenir ve somut sınıfların algoritmayı değiştirebilmeyi sağlayan metodları uygulaması gerekir.
-	
-	
+Şablon demektir. Bir algoritma içerisinde değişiklik gösteren noktalar var ise kullanılır. Genel bir algoritma vardır ve alt sınıflara göre ara ara farklı yöntemler uygulanabilir.
+
+Algoritma tüm alt sınıflar için benzerse ve bazı noktalar değişiyorsa kullanılabilir, aksi takdirde strateji pattern daha uygun olacaktır.
+
+Algoritma abstract bir sınıfta belirlenir ve somut sınıfların algoritmayı değiştirebilmeyi sağlayan metodları uygulaması gerekir.
 
 Iterator design pattern nedir? - Davranışsal
 ------------------------------------------------
