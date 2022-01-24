@@ -79,14 +79,12 @@ Facade sınıfı olmadan da alt sistemi oluşturan sınıflara direkt erişim de
 
 Fluent Interface pattern nedir? - Diğer
 --------------------------------------------
+Akıcı kod yazmamızı sağlayan bir pattern'dir. Nesne üzerinde işlem yapıldığında sürekli nesnenin kendisini dönüp diğer metodları hızlıca çağırabilmek.
 
-	Akıcı kod yazmamızı sağlayan bir pattern'dir. Nesne üzerinde işlem yapıldığında sürekli nesnenin kendisini dönüp diğer metodları hızlıca çağırabilmek.
-	
-	Method chaining yöntemi kullanılır. Aynı nesne içerisinde metod çağrıldığında aynı nesnenin dönülmesi...
-	
-	Dezavantajı: Eğer bir API kullanıyorsak ve method chaining var ise, geriye aynı instance mı yoksa farklı instance mı döndüğünü bilmek zorlaşır...
-	
-	
+Method chaining yöntemi kullanılır. Aynı nesne içerisinde metod çağrıldığında aynı nesnenin dönülmesi...
+
+Dezavantajı: Eğer bir API kullanıyorsak ve method chaining var ise, geriye aynı instance mı yoksa farklı instance mı döndüğünü bilmek zorlaşır...
+
 Proxy design pattern nedir? (Vekalet) - Yapısal
 ---------------------------------------------------
 
