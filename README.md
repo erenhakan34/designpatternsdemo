@@ -128,15 +128,13 @@ Iterator design pattern nedir? - Davranışsal
    foreach döngüsü iterasyon mantığı ile çalışır. Kaynağı koleksiyon veya dizidir. Bu kaynakların interface'lerinden birisi IEnumerable'dır.
     IEnumerable nesneye itera edilebilme özelliği veriyor...
 	
-	yield anahtar sözcüğü kullanılır. > Dataları iterasyon içerisinde kullanılması için tek tek döner. En son nerede kalındıysa compiler onu saklıyor ve metot her çağrılışında
-	 kaldığı yerden devam ediyor.
-	 
-	Direk liste dönülemez miydi? Evet dönülürdü ama döngü içerisinde belirli şartlar sağlayıp performansı da iyi kullanmak istiyorsak tercih edilebilir.(Lazy loading yapar)
-	  Sadece döngü içerisinde kullanıldığında tetiklenir.
-	  
-	.NET koleksiyonları mevcutta IEnumerable ve IEnumerator'dan türüyor ve iterasyon özelliği var...
-	
-	
+yield anahtar sözcüğü kullanılır. > Dataları iterasyon içerisinde kullanılması için tek tek döner. En son nerede kalındıysa compiler onu saklıyor ve metot her çağrılışında
+ kaldığı yerden devam ediyor.
+ 
+Direk liste dönülemez miydi? Evet dönülürdü ama döngü içerisinde belirli şartlar sağlayıp performansı da iyi kullanmak istiyorsak tercih edilebilir.(Lazy loading yapar)
+  Sadece döngü içerisinde kullanıldığında tetiklenir.
+  
+.NET koleksiyonları mevcutta IEnumerable ve IEnumerator'dan türüyor ve iterasyon özelliği var...
 	
 	
 Object pooling pattern nedir? - Diğer
