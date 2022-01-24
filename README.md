@@ -139,18 +139,16 @@ Direk liste dönülemez miydi? Evet dönülürdü ama döngü içerisinde belirl
 	
 Object pooling pattern nedir? - Diğer
 ------------------------------------------
-
-     Tekrar tekrar kullanılan nesnelerin üretim maliyetlerini azaltmak için nesnenin bir havuzda tutulması ve ihtiyaç anında oradan alınıp kullanılması için kullanılır.
-	 
-	 
-	 Nesne yaratılır, havuza atılır, ihtiyaç anında havuzdan alınır ve iş bitince tekrar havuza bırakılır...
-	 
-	 ConcurrentBag'de saklanır. Acquire(nesneyi havuzdan al) ve Release(nesneyi havuza bırak) metodları kullanılabilir.
-	 
-	 Örnek: DBContext nesnesi için sıklıkla kullanılan bir pattern'dir. Pooling tekniği...
-	 
-	 Microsoft.Extensions.ObjectPool nuget kütüphanesi...
-	 
+ Tekrar tekrar kullanılan nesnelerin üretim maliyetlerini azaltmak için nesnenin bir havuzda tutulması ve ihtiyaç anında oradan alınıp kullanılması için kullanılır.
+ 
+ 
+ Nesne yaratılır, havuza atılır, ihtiyaç anında havuzdan alınır ve iş bitince tekrar havuza bırakılır...
+ 
+ ConcurrentBag'de saklanır. Acquire(nesneyi havuzdan al) ve Release(nesneyi havuza bırak) metodları kullanılabilir.
+ 
+ Örnek: DBContext nesnesi için sıklıkla kullanılan bir pattern'dir. Pooling tekniği...
+ 
+ Microsoft.Extensions.ObjectPool nuget kütüphanesi... 
 	 
 	 
 Decorator design pattern nedir? - Yapısal
