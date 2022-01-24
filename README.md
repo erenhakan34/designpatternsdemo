@@ -88,14 +88,12 @@ Dezavantajı: Eğer bir API kullanıyorsak ve method chaining var ise, geriye ay
 Proxy design pattern nedir? (Vekalet) - Yapısal
 ---------------------------------------------------
 
-	Nesnelerin kontrolünü ele alan sınıflar oluşturmak için kullanılır. Nesnelere direkt erişmek yerine proxy sınıflar üzerinden erişilir ve belirli kontrol ve işlemler yapılır.
-    Asıl nesnemiz içerisinde ekstradan metodlar girmez.
-	
-	Senaryolar:
-		Uzaktaki nesneye local temsilci sağlar. Örneğin, asmx servisi metodlarının tetiklenmesi için wsdl ile client tarafında proxy sınıflar oluşturulur.
-		Yetkilendirme işleri için kullanılır. Örneğin, ilgili nesneyi tüketmeden önce yetkilerin kontrol edilmesi için kullanılır.
+Nesnelerin kontrolünü ele alan sınıflar oluşturmak için kullanılır. Nesnelere direkt erişmek yerine proxy sınıflar üzerinden erişilir ve belirli kontrol ve işlemler yapılır.
+Asıl nesnemiz içerisinde ekstradan metodlar girmez.
 
-	
+Senaryolar:
+	Uzaktaki nesneye local temsilci sağlar. Örneğin, asmx servisi metodlarının tetiklenmesi için wsdl ile client tarafında proxy sınıflar oluşturulur.
+	Yetkilendirme işleri için kullanılır. Örneğin, ilgili nesneyi tüketmeden önce yetkilerin kontrol edilmesi için kullanılır.
 
 Builder design pattern nedir?  - Yaratımsal
 ------------------------------------------------
