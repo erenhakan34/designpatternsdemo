@@ -98,12 +98,10 @@ Senaryolar:
 Builder design pattern nedir?  - Yaratımsal
 ------------------------------------------------
 
-	İnşaatçi görevi üstlenir ve kompleks nesnelerin yaratılmasından sorumlu bir sınıf oluşturmak için kullanılır. Client tarafında kod karmaşıklığı da azalır.
-	Factory ile benzer ama factory sadece constructor'ı wrap ediyor, builder hem daha uzun bir inşa süreci için kullanılıyor.
-	
-	Birden fazla aynı nesneyi farklı şekilde yaratan builder sınıfları olabilir. Örnek: Araba üretmek
-	
-	
+İnşaatçi görevi üstlenir ve kompleks nesnelerin yaratılmasından sorumlu bir sınıf oluşturmak için kullanılır. Client tarafında kod karmaşıklığı da azalır.
+Factory ile benzer ama factory sadece constructor'ı wrap ediyor, builder hem daha uzun bir inşa süreci için kullanılıyor.
+
+Birden fazla aynı nesneyi farklı şekilde yaratan builder sınıfları olabilir. Örnek: Araba üretmek
 
 Template design pattern nedir? - Davranışsal
 ------------------------------------------------
