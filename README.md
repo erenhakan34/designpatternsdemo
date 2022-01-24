@@ -188,7 +188,7 @@ State design pattern nedir? - Davranışsal
 Intercepting Filter pattern nedir? - Diğer
 -----------------------------------------------
 
-    Kullanıcıdan gelen isteği işlemeden önce filtreleme yapmak veya cevap dönmeden önce response'ı modifiye etmek için kullanılır.
-	Her bir filtre kendi görevini yapıp isteği diğer bir filtreye iletir. Bu akışı yöneten FilterManager sınıfıdır.
+Kullanıcıdan gelen isteği işlemeden önce filtreleme yapmak veya cevap dönmeden önce response'ı modifiye etmek için kullanılır.
+Her bir filtre kendi görevini yapıp isteği diğer bir filtreye iletir. Bu akışı yöneten FilterManager sınıfıdır.
 	
 	
