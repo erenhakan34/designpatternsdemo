@@ -179,11 +179,10 @@ Mediator design pattern nedir? - Davranışsal
 State design pattern nedir? - Davranışsal
 ----------------------------------------------
 
-    Nesnenin t anındaki durumuna göre çalışma davranışını değiştirmek için kullanılır.
-	Örnek: Televizyon kumandası açma ve kapama düğmesi aynı. Eğer tv açıkca tuş kapatır, eğer tv kapalı ise tuş tv'yi açar.
-	
-	Nesnenin tüm olası durumlarına istinaden yeni sınıflar oluşturulması ve davranışların bu sınıflar içerisinde handle edilmesi.
-	
+Nesnenin t anındaki durumuna göre çalışma davranışını değiştirmek için kullanılır.
+Örnek: Televizyon kumandası açma ve kapama düğmesi aynı. Eğer tv açıkca tuş kapatır, eğer tv kapalı ise tuş tv'yi açar.
+
+Nesnenin tüm olası durumlarına istinaden yeni sınıflar oluşturulması ve davranışların bu sınıflar içerisinde handle edilmesi.
 
 Intercepting Filter pattern nedir? - Diğer
 -----------------------------------------------
