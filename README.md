@@ -146,11 +146,8 @@ Object pooling pattern nedir? - Diğer
 Decorator design pattern nedir? - Yapısal
 ---------------------------------------------
 
-    Sınıfa yeni bir nitelik kazandırmak için kullanılır. (Süsleme)
-	Örneğin bir sınıfın metoduna yeni bir davranış kazandırmak istiyor. Bunun için inheritance da tercih edilebilir decorator pattern de tercih edilebilir.
-	
-	
-	 
+Sınıfa yeni bir nitelik kazandırmak için kullanılır. (Süsleme)
+Örneğin bir sınıfın metoduna yeni bir davranış kazandırmak istiyor. Bunun için inheritance da tercih edilebilir decorator pattern de tercih edilebilir. 
 	
 Mediator design pattern nedir? - Davranışsal
 ------------------------------------------------
