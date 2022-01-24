@@ -9,9 +9,9 @@ Factory design pattern nedir? - Yaratımsal
 -----------------------------------------------
  
    Benzer nesnelerden sadece birini kullanmak isteyebiliriz ve kod içerisinde buna if-else veya switch ile karar vermek yerine tek bir sınıf üzerinden belirli şarta göre
-	oluşan nesneyi alabiliriz. Nesne oluşturmak factory sınıfının görevi olur ve client sadece nesneyi ister.
+   oluşan nesneyi alabiliriz. Nesne oluşturmak factory sınıfının görevi olur ve client sadece nesneyi ister.
 	
-	Strategy ile karıştırılabilir, factory'nin kullanım amacı daha çok client'ı kompleks nesnelerin üretiminden soyutlamak.
+   Strategy ile karıştırılabilir, factory'nin kullanım amacı daha çok client'ı kompleks nesnelerin üretiminden soyutlamak.
 	
 
 Dependency Injection(DI) nedir? (Bağımlılıkları soyutlamak)
@@ -29,10 +29,10 @@ Prototype design pattern nedir? - Yaratımsal(Çok kullanılmaz)
 
 	Nesnelerin hızlıca kopyasını elde etmemizi sağlar. Yaratma işlemi kompleks ve maliyetli ise bir nesneyi bu yolla hızlıca farklı bir nesne alabiliriz.
 	
-	Shallow Copy > Farklı bir nesne oluşur fakat nesne içerisinde bir nesne var ise o nesnenin referansı kopyalanır.
+	Shallow Copy: Farklı bir nesne oluşur fakat nesne içerisinde bir nesne var ise o nesnenin referansı kopyalanır.
 					Yöntem: this.MemberwiseClone()
 					
-	Deep Copy >    Farklı bir nesne oluşur ve içerisindeki nesneler de farklı referansla oluşur.  
+	Deep Copy:    Farklı bir nesne oluşur ve içerisindeki nesneler de farklı referansla oluşur.  
 				   Yöntem: Yeni bir instance yaratmak...	
 	
 
@@ -41,11 +41,11 @@ Strategy design pattern nedir? - Davranışsal kalıp > Nesnenin runtime'daki da
 
 	Bir işlem için birden farklı yöntem var ise bu yöntemlerden birisini kullanmak için kullanılır.
 
-    SOLId prensiplerinden Open-closed prensibini sağlamış oluruz.
+        SOLId prensiplerinden Open-closed prensibini sağlamış oluruz.
 	
 	Strategy base sınıfımız olur ve bu sınıfı uygulayan özel strateji sınıfları olur. Client hangi stratejiyi kullanmak istiyorsa onu geçmek zorundadır.
 	
-	Örnek senaryolar > Ödeme yöntemleri(Nakit ödeme, Kredi kartı ile ödeme, QR kod ile ödeme, vs)
+	Örnek senaryolar: Ödeme yöntemleri(Nakit ödeme, Kredi kartı ile ödeme, QR kod ile ödeme, vs)
 	                   Login olma yöntemleri(Tckn ile login, kullanıcı kodu ile login, kredi kartı no ile login, vs.)
 	
 	
@@ -66,7 +66,7 @@ Memento design pattern nedir? - Davranışsal
    Memento = Hatıra
    Nesnenin herhangi bir T anındaki durumunu kayda alır ve o ana dönülebilmesini sağlar.
    
-   Asıl nesnemiz > Originator, Nesneminiz memento sınıfı var ve bu memento nesnesini saklayan care taker sınıfı var. 
+   Asıl nesnemiz: Originator, nesnemizin memento sınıfı var ve bu memento nesnesini saklayan care taker sınıfı var. 
 	Asıl nesne içerisinde Save ve Load metodları olabilir.
 	
 	
@@ -75,8 +75,7 @@ Facade design pattern nedir? - Yapısal kalıp
 ------------------------------------------------
 
     Karmaşık sistemler için client'lara basit bir arayüz sunarak kompleks işleri client'tan soyutlamak için kullanılır.
-	
-	Facade sınıfı olmadan da alt sistemi oluşturan sınıflara direkt erişim de yapılabilir. Her biri bağımsız çalışırlar.
+    Facade sınıfı olmadan da alt sistemi oluşturan sınıflara direkt erişim de yapılabilir. Her biri bağımsız çalışırlar.
 	
 
 
@@ -87,7 +86,7 @@ Fluent Interface pattern nedir? - Diğer
 	
 	Method chaining yöntemi kullanılır. Aynı nesne içerisinde metod çağrıldığında aynı nesnenin dönülmesi...
 	
-	Dezavantajı > Eğer bir API kullanıyorsak ve method chaining var ise, geriye aynı instance mı yoksa farklı instance mı döndüğünü bilmek zorlaşır...
+	Dezavantajı: Eğer bir API kullanıyorsak ve method chaining var ise, geriye aynı instance mı yoksa farklı instance mı döndüğünü bilmek zorlaşır...
 	
 	
 Proxy design pattern nedir? (Vekalet) - Yapısal
@@ -96,7 +95,7 @@ Proxy design pattern nedir? (Vekalet) - Yapısal
 	Nesnelerin kontrolünü ele alan sınıflar oluşturmak için kullanılır. Nesnelere direkt erişmek yerine proxy sınıflar üzerinden erişilir ve belirli kontrol ve işlemler yapılır.
     Asıl nesnemiz içerisinde ekstradan metodlar girmez.
 	
-	Senaryolar >
+	Senaryolar:
 		Uzaktaki nesneye local temsilci sağlar. Örneğin, asmx servisi metodlarının tetiklenmesi için wsdl ile client tarafında proxy sınıflar oluşturulur.
 		Yetkilendirme işleri için kullanılır. Örneğin, ilgili nesneyi tüketmeden önce yetkilerin kontrol edilmesi için kullanılır.
 
@@ -137,7 +136,7 @@ Iterator design pattern nedir? - Davranışsal
 	Direk liste dönülemez miydi? Evet dönülürdü ama döngü içerisinde belirli şartlar sağlayıp performansı da iyi kullanmak istiyorsak tercih edilebilir.(Lazy loading yapar)
 	  Sadece döngü içerisinde kullanıldığında tetiklenir.
 	  
-	!!! .NET koleksiyonları mevcutta IEnumerable ve IEnumerator'dan türüyor ve iterasyon özelliği var...
+	.NET koleksiyonları mevcutta IEnumerable ve IEnumerator'dan türüyor ve iterasyon özelliği var...
 	
 	
 	
@@ -152,7 +151,7 @@ Object pooling pattern nedir? - Diğer
 	 
 	 ConcurrentBag'de saklanır. Acquire(nesneyi havuzdan al) ve Release(nesneyi havuza bırak) metodları kullanılabilir.
 	 
-	 Örnek > DBContext nesnesi için sıklıkla kullanılan bir pattern'dir. Pooling tekniği...
+	 Örnek: DBContext nesnesi için sıklıkla kullanılan bir pattern'dir. Pooling tekniği...
 	 
 	 Microsoft.Extensions.ObjectPool nuget kütüphanesi...
 	 
