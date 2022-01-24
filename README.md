@@ -74,10 +74,8 @@ Memento design pattern nedir? - Davranışsal
 Facade design pattern nedir? - Yapısal kalıp
 ------------------------------------------------
 
-    Karmaşık sistemler için client'lara basit bir arayüz sunarak kompleks işleri client'tan soyutlamak için kullanılır.
-    Facade sınıfı olmadan da alt sistemi oluşturan sınıflara direkt erişim de yapılabilir. Her biri bağımsız çalışırlar.
-	
-
+Karmaşık sistemler için client'lara basit bir arayüz sunarak kompleks işleri client'tan soyutlamak için kullanılır.
+Facade sınıfı olmadan da alt sistemi oluşturan sınıflara direkt erişim de yapılabilir. Her biri bağımsız çalışırlar.
 
 Fluent Interface pattern nedir? - Diğer
 --------------------------------------------
